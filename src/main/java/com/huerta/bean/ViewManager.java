@@ -34,9 +34,9 @@ public class ViewManager implements Serializable{
   }
   
   public String add() {
-	    System.out.println("Key Introducida:" + this.key + " Valor asociado:" + this.value + ".");
+	    System.out.println("Key:" + this.key + ", valor:" + this.value + ".");
 	    setValue(this.value + "==");
-	    this.mensaje="Alta realizada";
+	    this.mensaje="Ejemplo";
 	    return "vista2";
 	  }
 }
